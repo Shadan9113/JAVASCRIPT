@@ -16,3 +16,5 @@ function orderPizza(greet, callBack){
     }
 }
 orderPizza();
+
+// after the expire of  ms in callback it goes to the callback queue and then event loop check whether is something in callback queue then it push the callback into call stack 
