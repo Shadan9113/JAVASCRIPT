@@ -8,4 +8,3 @@ function a(){
     console.log("javaScript")
 }
 a();
-
