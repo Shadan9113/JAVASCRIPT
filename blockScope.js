@@ -25,3 +25,17 @@ function a() {
   }
 }
 // this code work fine
+
+
+var a = 20;
+{
+    var a = 30;
+    let b = 40;
+    const c = 50;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+console.log(a);
+
+// block scope with shadowing
