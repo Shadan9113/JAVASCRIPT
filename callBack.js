@@ -17,4 +17,8 @@ function orderPizza(greet, callBack){
 }
 orderPizza();
 
-// after the expire of  ms in callback it goes to the callback queue and then event loop check whether is something in callback queue then it push the callback into call stack 
+// after the expire of  ms in callback it goes to the callback queue and then event loop check whether is     something in callback queue then it push the callback into call stack 
+
+// microtask queue has higher priority than call stack queue
+
+// event loop continuosly checking the call stack when all the code execute then it push the callback code which is in microtask queue
