@@ -7,4 +7,4 @@ function a(){
 let z = a();
 z();
 
-// closure always return its chlid function 
+// closure always return its chlid function or lexical 
