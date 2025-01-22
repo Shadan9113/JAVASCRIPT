@@ -22,3 +22,5 @@ orderPizza();
 // microtask queue has higher priority than call stack queue
 
 // event loop continuosly checking the call stack when all the code execute then it push the callback code which is in microtask queue
+
+// namaste js
