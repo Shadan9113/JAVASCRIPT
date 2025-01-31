@@ -20,3 +20,5 @@ let counter = outer();
 console.log(counter());
 console.log(counter());
 
+// good practice
+
